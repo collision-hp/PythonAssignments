@@ -1,3 +1,5 @@
 str='aabbbccccddddd'
-print(", ".join(sorted(set(str))))
 
+st=set(str)
+ss=sorted(st)
+print(", ".join(ss))

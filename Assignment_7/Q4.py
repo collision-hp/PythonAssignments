@@ -1,4 +1,7 @@
-str="hypothesis"
+str="HYPOTHESES"
 ll=list(str)
-c=ll.count("s")
-print(c)
+cc=ll.count("S")
+print(cc)
+
+
+

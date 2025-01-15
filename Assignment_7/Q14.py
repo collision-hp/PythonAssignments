@@ -1,10 +1,6 @@
-str="characters"
-strrev=""
+str="position"
+str1=""
 n=len(str)//2
 for i in str[:n]:
-    strrev=i+strrev
-print(strrev)
-rest=str[n:]
-strnew=strrev+rest
-print(strnew)
-
+    str1=i+str1
+print(str1+str[n:])

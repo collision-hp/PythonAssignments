@@ -7,3 +7,5 @@ def anagram(str1,str2):
 str1=input("Enter the 1st string")
 str2=input("Enter the 2nd string")
 print(anagram(str1,str2))
+
+

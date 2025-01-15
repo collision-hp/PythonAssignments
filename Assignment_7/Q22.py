@@ -12,3 +12,4 @@ for i in str:
 
 if rts==str:
     print("Symmetric")
+    

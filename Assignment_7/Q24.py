@@ -15,4 +15,16 @@ print(max)
 for key,val in freq.items():
     if val==max:
         print(key)
+        
+#OR
 
+ll=list(str)   
+max=1  
+chr=''
+for i in ll:
+    cc=ll.count(i)
+    if cc>max:
+        max=cc
+        chr=i
+print(max)
+print(chr)

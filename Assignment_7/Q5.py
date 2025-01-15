@@ -1,14 +1,17 @@
 sentence="count the number of occurrences"
 ll=sentence.split(" ")
 print(ll)
-j=1
+max=1
 for i in ll:
-    for j in ll:
-        if len(i)>len(j):
-            max=i
-        else:
-            max=j 
-            break
+    cc=len(i)
+    if cc>max:
+        max=cc
 print(max)
+
+
+
+
+
+
 
 
